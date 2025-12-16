@@ -1,0 +1,222 @@
+/* --------------------------
+   COLOR VARIABLES
+---------------------------*/
+:root {
+    --sage-green: #4c9f70;
+    --evergreen: #2F4F2F;
+    --frost-blue: #A7C7E7;
+    --airforce-blue: #5D8AA8;
+    --dark-text: #1a1a1a;
+    --light-bg: #f7f7f7;
+    --footer-bg: #2F4F2F; /* Add footer color */
+}
+
+/* --------------------------
+   BASE & TYPOGRAPHY
+---------------------------*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--light-bg);
+}
+
+body {
+    color: var(--dark-text);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------------------------
+   NAVIGATION
+---------------------------*/
+
+.topbar {
+    background-color: #fff;
+    color: var(--dark-text); 
+}
+
+/* --------------------------
+   HERO SECTION
+---------------------------*/
+.hero {
+    margin-top: 0;
+    padding: 120px 20px;
+    text-align: center;
+    background-color: var(--sage-green);
+    color: white;
+    
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color:white; 
+}
+
+.hero-subtitle {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.hero-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    color:white;
+}
+
+/* --------------------------
+   IMPACT SECTION
+---------------------------*/
+.impact {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: var(--light-bg);
+}
+
+.impact-card {
+    background: white;
+}
+
+.impact h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.impact-card p {
+    font-size: 16px;
+}
+.impact-card i {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+/* --------------------------
+   RESOURCES SECTION
+---------------------------*/
+.resources {
+    padding: 120px 20px;
+    justify-content: center;
+    background-color: white;
+}
+
+.resources-text li::before {
+    content: "✔"; 
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.resource-card a {
+    background-color: var(--airforce-blue);
+    color: white;
+    font-weight: 600;
+}
+
+/* --------------------------
+   CALL TO ACTION SECTION
+---------------------------*/
+.call-to-action {
+    padding: 80px 20px;
+    background-color: var(--frost-blue);
+    color: white;
+}
+
+/* --------------------------
+   FOOTER
+---------------------------*/
+.site-footer {
+    background-color: var(--footer-bg);
+    color: white;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.socials .icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.socials i {
+    font-size: 18px;
+}
+
+/* --------------------------
+   ABOUT PAGE
+---------------------------*/
+
+.mission {
+    background-color: var(--frost-blue);
+    color: white;
+}
+
+/* --------------------------
+   ABOUT PAGE
+---------------------------*/
+
+.projects {
+    background-color: var(--light-bg);
+}
+
+.projects .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--dark-text);
+}
+
+.project-card-horizontal {
+    background: white;
+}
+
+.project-content h3 {
+    font-size: 28px;
+    color: var(--sage-green);
+}
+
+.project-content p {
+    font-size: 18px;
+}
+
+/* --------------------------
+   CONTACT SECTION
+---------------------------*/
+
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+/* --------------------------
+   MISSION SECTION
+---------------------------*/
+.mission h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.mission p {
+    font-size: 18px;
+}
